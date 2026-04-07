@@ -10,19 +10,19 @@ const pricingTiers = [
     value: 0,
     features: [
       {
-        title: "Batch Shooting (3 Days)",
-        desc: "All content for the month captured during 3 shoot days (₹8,500/day).",
-        cost: "₹25,500"
+        title: "Batch Shooting (1 Day)",
+        desc: "All content for the month captured during 1 shoot day (8 hours) (₹20,000/day).",
+        cost: "₹20,000"
       },
       {
-        title: "Video Editing (15 Reels)",
-        desc: "A balanced mix of High-Quality cinematic reels and Raw/Light reels (₹900/reel).",
-        cost: "₹13,500"
+        title: "Video Editing (11 Reels)",
+        desc: "A balanced mix of High-Quality cinematic reels and Raw/Light reels (₹2,000/reel).",
+        cost: "₹22,000"
       },
       {
         title: "Static & Carousel Posts",
-        desc: "6 Static and 6 Carousel posts (₹500/post).",
-        cost: "₹6,000"
+        desc: "1 Carousel and 2 Static posts (₹1,000/post).",
+        cost: "₹3,000"
       }
     ]
   },
@@ -32,19 +32,19 @@ const pricingTiers = [
     value: 33.33,
     features: [
       {
-        title: "Batch Shooting (4 Days)",
-        desc: "All content for the month captured during 4 shoot days (₹8,500/day).",
-        cost: "₹34,000"
+        title: "Batch Shooting (1 Day)",
+        desc: "All content for the month captured during 1 shoot day (8 hours) (₹20,000/day).",
+        cost: "₹20,000"
       },
       {
-        title: "Video Editing (20 Reels)",
-        desc: "A balanced mix of High-Quality cinematic reels and Raw/Light reels (₹900/reel).",
-        cost: "₹18,000"
+        title: "Video Editing (15 Reels)",
+        desc: "A balanced mix of High-Quality cinematic reels and Raw/Light reels (₹2,000/reel).",
+        cost: "₹30,000"
       },
       {
         title: "Static & Carousel Posts",
-        desc: "8 Static and 8 Carousel posts (₹500/post).",
-        cost: "₹8,000"
+        desc: "4 Carousel and 6 Static posts (₹1,000/post).",
+        cost: "₹10,000"
       }
     ]
   },
@@ -54,19 +54,19 @@ const pricingTiers = [
     value: 66.66,
     features: [
       {
-        title: "Batch Shooting (5 Days)",
-        desc: "All content for the month captured during 5 shoot days (₹8,500/day).",
-        cost: "₹42,500"
+        title: "Batch Shooting (2 Days)",
+        desc: "All content for the month captured during 2 shoot days (8 hours/day) (₹20,000/day).",
+        cost: "₹40,000"
       },
       {
-        title: "Video Editing (25 Reels)",
-        desc: "A balanced mix of High-Quality cinematic reels and Raw/Light reels (₹900/reel).",
-        cost: "₹22,500"
+        title: "Video Editing (14 Reels)",
+        desc: "A balanced mix of High-Quality cinematic reels and Raw/Light reels (₹2,000/reel).",
+        cost: "₹28,000"
       },
       {
         title: "Static & Carousel Posts",
-        desc: "10 Static and 10 Carousel posts (₹500/post).",
-        cost: "₹10,000"
+        desc: "3 Carousel and 4 Static posts (₹1,000/post).",
+        cost: "₹7,000"
       }
     ]
   },
@@ -76,19 +76,19 @@ const pricingTiers = [
     value: 100,
     features: [
       {
-        title: "Batch Shooting (6 Days)",
-        desc: "All content for the month captured during 6 shoot days (₹8,500/day).",
-        cost: "₹51,000"
+        title: "Batch Shooting (2 Days)",
+        desc: "All content for the month captured during 2 shoot days (8 hours/day) (₹20,000/day).",
+        cost: "₹40,000"
       },
       {
-        title: "Video Editing (30 Reels)",
-        desc: "A balanced mix of High-Quality cinematic reels and Raw/Light reels (₹900/reel).",
-        cost: "₹27,000"
+        title: "Video Editing (20 Reels)",
+        desc: "A balanced mix of High-Quality cinematic reels and Raw/Light reels (₹2,000/reel).",
+        cost: "₹40,000"
       },
       {
         title: "Static & Carousel Posts",
-        desc: "12 Static and 12 Carousel posts (₹500/post).",
-        cost: "₹12,000"
+        desc: "5 Carousel and 5 Static posts (₹1,000/post).",
+        cost: "₹10,000"
       }
     ]
   }
@@ -225,9 +225,9 @@ export default function Pricing() {
                 <span className="text-lg md:text-xl font-light text-gray-400">/ month</span>
               </div>
             </div>
-            <button className="w-full md:w-auto bg-[#A855F7] hover:bg-[#9333EA] text-white font-bold py-3 px-8 rounded-lg transition-colors flex items-center justify-center gap-2">
+            <a href="https://www.ssbykmw.com/register-form" target="_blank" rel="noopener noreferrer" className="w-full md:w-auto bg-[#A855F7] hover:bg-[#9333EA] text-white font-bold py-3 px-8 rounded-lg transition-colors flex items-center justify-center gap-2">
               Contact Us <ArrowRight size={16} />
-            </button>
+            </a>
           </div>
           
           <p className="text-center text-[10px] md:text-xs text-gray-400 mt-6 max-w-3xl mx-auto">
