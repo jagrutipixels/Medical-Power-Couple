@@ -11,18 +11,18 @@ const pricingTiers = [
     features: [
       {
         title: "Batch Shooting (1 Day)",
-        desc: "All content for the month captured during 1 shoot day (8 hours) (₹20,000/day).",
+        desc: "All content for the month captured during 1 shoot day (8 hours).",
         cost: "₹20,000"
       },
       {
-        title: "Video Editing (11 Reels)",
-        desc: "A balanced mix of High-Quality cinematic reels and Raw/Light reels (₹2,000/reel).",
-        cost: "₹22,000"
+        title: "Video Editing (10 Reels)",
+        desc: "A balanced mix of High-Quality cinematic reels and Raw/Light reels.",
+        cost: "₹20,000"
       },
       {
         title: "Static & Carousel Posts",
-        desc: "1 Carousel and 2 Static posts (₹1,000/post).",
-        cost: "₹3,000"
+        desc: "1 Carousel and 2 Static posts.",
+        cost: "₹5,000"
       }
     ]
   },
@@ -33,17 +33,17 @@ const pricingTiers = [
     features: [
       {
         title: "Batch Shooting (1 Day)",
-        desc: "All content for the month captured during 1 shoot day (8 hours) (₹20,000/day).",
+        desc: "All content for the month captured during 1 shoot day (8 hours).",
         cost: "₹20,000"
       },
       {
         title: "Video Editing (15 Reels)",
-        desc: "A balanced mix of High-Quality cinematic reels and Raw/Light reels (₹2,000/reel).",
+        desc: "A balanced mix of High-Quality cinematic reels and Raw/Light reels.",
         cost: "₹30,000"
       },
       {
         title: "Static & Carousel Posts",
-        desc: "4 Carousel and 6 Static posts (₹1,000/post).",
+        desc: "2 Carousels and 4 Static posts.",
         cost: "₹10,000"
       }
     ]
@@ -55,18 +55,18 @@ const pricingTiers = [
     features: [
       {
         title: "Batch Shooting (2 Days)",
-        desc: "All content for the month captured during 2 shoot days (8 hours/day) (₹20,000/day).",
+        desc: "All content for the month captured during 2 shoot days (8 hours/day).",
         cost: "₹40,000"
       },
       {
-        title: "Video Editing (14 Reels)",
-        desc: "A balanced mix of High-Quality cinematic reels and Raw/Light reels (₹2,000/reel).",
-        cost: "₹28,000"
+        title: "Video Editing (15 Reels)",
+        desc: "A balanced mix of High-Quality cinematic reels and Raw/Light reels.",
+        cost: "₹30,000"
       },
       {
         title: "Static & Carousel Posts",
-        desc: "3 Carousel and 4 Static posts (₹1,000/post).",
-        cost: "₹7,000"
+        desc: "1 Carousel and 2 Static posts.",
+        cost: "₹5,000"
       }
     ]
   },
@@ -77,17 +77,17 @@ const pricingTiers = [
     features: [
       {
         title: "Batch Shooting (2 Days)",
-        desc: "All content for the month captured during 2 shoot days (8 hours/day) (₹20,000/day).",
+        desc: "All content for the month captured during 2 shoot days (8 hours/day).",
         cost: "₹40,000"
       },
       {
         title: "Video Editing (20 Reels)",
-        desc: "A balanced mix of High-Quality cinematic reels and Raw/Light reels (₹2,000/reel).",
+        desc: "A balanced mix of High-Quality cinematic reels and Raw/Light reels.",
         cost: "₹40,000"
       },
       {
         title: "Static & Carousel Posts",
-        desc: "5 Carousel and 5 Static posts (₹1,000/post).",
+        desc: "2 Carousels and 4 Static posts.",
         cost: "₹10,000"
       }
     ]
@@ -117,7 +117,7 @@ export default function Pricing() {
             Transparent Monthly Pricing
           </h2>
           <p className="text-sm md:text-base font-light text-med-white/70 max-w-2xl leading-relaxed">
-            Choose the plan that fits your goals and budget. All plans include a balanced mix of video and static content, plus weekly stories management. Drag the slider to explore each tier.
+            Choose the plan that fits your goals and budget. All plans include a balanced mix of video and static content. Drag the slider to explore each tier.
           </p>
         </div>
         
@@ -198,16 +198,6 @@ export default function Pricing() {
             </AnimatePresence>
 
             {/* Static Features */}
-            <div className="flex flex-col md:flex-row justify-between items-start md:items-center py-6 border-t border-gray-200 gap-4">
-              <div>
-                <h4 className="font-bold text-sm md:text-base mb-1">Weekly Stories Management</h4>
-                <p className="text-xs md:text-sm text-gray-500 font-light">4-5 weekly stories using behind-the-scenes content and engagement polls.</p>
-              </div>
-              <div className="text-[#8B5CF6] font-bold text-sm md:text-base whitespace-nowrap">
-                Complimentary
-              </div>
-            </div>
-
             <div className="py-6 border-t border-gray-200">
               <h4 className="font-bold text-xs uppercase tracking-wider text-gray-400 mb-2">Payment Terms</h4>
               <p className="text-xs md:text-sm text-gray-500 font-light">
@@ -244,22 +234,22 @@ export default function Pricing() {
                 <div className="w-12 h-12 bg-[#8B5CF6]/10 rounded-full flex items-center justify-center mx-auto mb-4 text-[#8B5CF6]">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
                 </div>
-                <h4 className="font-bold text-sm mb-2">Predictable Patient Flow</h4>
-                <p className="text-xs text-gray-500 leading-relaxed">A system designed to consistently attract high-value patients, reducing reliance on word-of-mouth alone.</p>
+                <h4 className="font-bold text-sm mb-2">Sustainable Brand Growth</h4>
+                <p className="text-xs text-gray-500 leading-relaxed">A structured approach to building your online authority, designed to complement your existing word-of-mouth referrals and reach a broader audience.</p>
               </div>
               <div className="text-center">
                 <div className="w-12 h-12 bg-[#8B5CF6]/10 rounded-full flex items-center justify-center mx-auto mb-4 text-[#8B5CF6]">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
                 </div>
-                <h4 className="font-bold text-sm mb-2">Time Freedom</h4>
-                <p className="text-xs text-gray-500 leading-relaxed">We handle the entire digital ecosystem—from ideation to editing to posting—so you can focus entirely on surgery and patient care.</p>
+                <h4 className="font-bold text-sm mb-2">Reclaimed Time</h4>
+                <p className="text-xs text-gray-500 leading-relaxed">We manage the heavy lifting of content creation and digital strategy, allowing you to dedicate your focus where it matters most: patient care.</p>
               </div>
               <div className="text-center">
                 <div className="w-12 h-12 bg-[#8B5CF6]/10 rounded-full flex items-center justify-center mx-auto mb-4 text-[#8B5CF6]">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2v20"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
                 </div>
-                <h4 className="font-bold text-sm mb-2">Premium Positioning</h4>
-                <p className="text-xs text-gray-500 leading-relaxed">Elevate your perceived value in the market. Premium branding justifies premium pricing and attracts a better demographic.</p>
+                <h4 className="font-bold text-sm mb-2">Elevated Perception</h4>
+                <p className="text-xs text-gray-500 leading-relaxed">Align your digital presence with the high quality of care you provide. Professional branding helps build trust and credibility before the first consultation.</p>
               </div>
             </div>
           </div>
