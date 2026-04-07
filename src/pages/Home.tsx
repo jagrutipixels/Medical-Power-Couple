@@ -24,7 +24,7 @@ export default function Home() {
         </h1>
         
         <p className="text-lg md:text-2xl font-light text-med-white/70 max-w-3xl mx-auto mb-12 md:mb-16 leading-relaxed px-4">
-          Dominating Navi Mumbai’s Healthcare Space. An End-to-End Digital Authority & Personal Branding System by iCreatePixels.
+          Dominating Navi Mumbai’s Healthcare Space. An End-to-End Digital Authority & Personal Branding System by Savoir Studio.
         </p>
         
         <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12 mt-8 md:mt-16">
@@ -36,7 +36,6 @@ export default function Home() {
           <div className="flex flex-col items-center gap-2">
             <span className="text-med-white/40 text-[8px] md:text-[10px] uppercase tracking-widest">Prepared By</span>
             <span className="text-lg md:text-xl font-light italic">Abhishek Gujar</span>
-            <a href="https://www.icreatepixels.in" target="_blank" rel="noopener noreferrer" className="text-[8px] md:text-[10px] text-med-glow/60 hover:text-med-glow transition-colors tracking-widest uppercase mt-1">www.icreatepixels.in</a>
           </div>
         </div>
 

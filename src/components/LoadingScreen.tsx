@@ -44,7 +44,7 @@ export default function LoadingScreen() {
           <motion.div 
             animate={{ rotateY: 360 }}
             transition={{ duration: 4, repeat: Infinity, ease: "linear" }}
-            className="w-16 h-16 md:w-20 md:h-20 rounded-full bg-med-glow flex items-center justify-center text-med-deep font-bold text-3xl md:text-4xl shadow-[0_0_40px_rgba(0,245,255,0.4)]"
+            className="w-16 h-16 md:w-20 md:h-20 rounded-full bg-med-glow flex items-center justify-center text-med-deep font-bold text-2xl md:text-3xl shadow-[0_0_40px_rgba(0,245,255,0.4)]"
           >
             S
           </motion.div>
@@ -57,7 +57,7 @@ export default function LoadingScreen() {
         transition={{ delay: 0.5 }}
         className="text-center relative z-10"
       >
-        <h2 className="text-med-white font-display italic text-2xl md:text-3xl tracking-widest mb-4">iCreatePixels</h2>
+        <h2 className="text-med-white font-display italic text-2xl md:text-3xl tracking-widest mb-4">Savoir Studio</h2>
         <div className="flex flex-col items-center gap-4">
           <div className="flex items-center gap-3">
             <span className="text-[10px] md:text-xs uppercase tracking-[0.4em] text-med-glow font-bold text-glow-teal">
@@ -90,7 +90,6 @@ export default function LoadingScreen() {
         <div className="flex flex-col gap-2">
           <div className="w-12 h-px bg-med-glow/30" />
           <span className="text-[8px] uppercase tracking-widest text-med-white/20">Abhishek Gujar</span>
-          <span className="text-[8px] uppercase tracking-widest text-med-glow/40">www.icreatepixels.in</span>
         </div>
       </div>
     </motion.div>

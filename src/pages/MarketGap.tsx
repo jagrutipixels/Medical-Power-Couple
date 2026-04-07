@@ -59,7 +59,7 @@ export default function MarketGap() {
               <h3 className="text-xl md:text-2xl font-display italic text-med-white mb-4">{card.title}</h3>
               <p className="text-sm text-med-white/40 leading-relaxed mb-6 md:mb-8">{card.description}</p>
               <div className="mt-auto pt-6 md:pt-8 border-t border-white/5">
-                <span className="text-[10px] uppercase tracking-widest text-med-glow font-bold mb-2 block">iCreatePixels Edge</span>
+                <span className="text-[10px] uppercase tracking-widest text-med-glow font-bold mb-2 block">Savoir Edge</span>
                 <p className="text-sm font-light text-med-white/80 italic">{card.edge}</p>
               </div>
             </motion.div>

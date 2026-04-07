@@ -121,9 +121,14 @@ export default function Layout({ children }: LayoutProps) {
           </nav>
 
           <div className="mt-auto pt-6 md:pt-8 border-t border-white/5">
-            <button className="w-full py-3 md:py-4 bg-med-glow text-med-deep rounded-xl text-[10px] font-bold uppercase tracking-widest hover:bg-med-glow/80 transition-all duration-300 shadow-[0_0_20px_rgba(0,245,255,0.2)]">
+            <a 
+              href="https://www.ssbykmw.com/register-form"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block text-center w-full py-3 md:py-4 bg-med-glow text-med-deep rounded-xl text-[10px] font-bold uppercase tracking-widest hover:bg-med-glow/80 transition-all duration-300 shadow-[0_0_20px_rgba(0,245,255,0.2)]"
+            >
               Accept Proposal
-            </button>
+            </a>
           </div>
         </div>
       </aside>
