@@ -2,7 +2,7 @@ import { Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, PerspectiveCamera, Environment } from '@react-three/drei';
 import { Bloom, EffectComposer } from '@react-three/postprocessing';
-import { DNAHelix, FloatingCells } from './ThreeElements';
+import { DNAHelix, FloatingCells, MedicalInstruments } from './ThreeElements';
 
 export default function Scene() {
   return (
@@ -17,6 +17,7 @@ export default function Scene() {
           
           <DNAHelix />
           <FloatingCells />
+          <MedicalInstruments />
           
           <EffectComposer>
             <Bloom luminanceThreshold={1} luminanceSmoothing={0.9} height={300} />
