@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Manrope:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Manrope", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Playfair Display", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-med-deep: #050B1A;
+  --color-med-blue: #0A1931;
+  --color-med-teal: #185ADB;
+  --color-med-glow: #00F5FF;
+  --color-med-white: #F9F9F9;
+  --color-med-gold: #D4AF37;
+}
+
+@layer base {
+  body {
+    @apply bg-med-deep text-med-white font-sans antialiased selection:bg-med-glow selection:text-med-deep;
+    background-color: #050B1A;
+  }
+}
+
+@utility glass-med {
+  @apply bg-white/5 backdrop-blur-xl border border-white/10;
+}
+
+@utility text-glow-teal {
+  text-shadow: 0 0 10px rgba(0, 245, 255, 0.5), 0 0 20px rgba(0, 245, 255, 0.2);
+}
+
+@utility bg-glow-gradient {
+  background: radial-gradient(circle at center, rgba(0, 245, 255, 0.15) 0%, transparent 70%);
+}
+
+@utility custom-scrollbar {
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: rgba(0, 245, 255, 0.2);
+    border-radius: 10px;
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 245, 255, 0.4);
+  }
+}
